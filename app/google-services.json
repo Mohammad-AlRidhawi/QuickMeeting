@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "121143942716",
+    "firebase_url": "https://quickmeeting-db.firebaseio.com",
+    "project_id": "quickmeeting-db",
+    "storage_bucket": "quickmeeting-db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:121143942716:android:e79d5e96e1fe6b62",
+        "android_client_info": {
+          "package_name": "com.meeting.quick.quickmeeting"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "121143942716-r8cgpmfv8f628p97vhjdg5rv55csc5o2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5E3XEIdk94WcdYmzAqz3fV1EWraUh39A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        card_view:cardElevation="4dp"
+        card_view:contentPaddingBottom="4dp"
+        card_view:cardCornerRadius="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/availability_image"
+                android:layout_width="119dp"
+                android:layout_height="59dp"
+                android:padding="4dp" />
+
+            <TextView
+                android:id="@+id/peopleInLIne"
+                android:layout_width="114dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewOfficeLocation"
+                android:layout_alignStart="@+id/availability_image"
+                android:layout_alignLeft="@+id/availability_image"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="-30dp"
+                android:padding="4dp"
+                android:paddingBottom="5dp"
+                android:text="5"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textSize="65dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/textViewOfficeLocation"
+                android:layout_alignStart="@+id/availability_image"
+                android:layout_alignLeft="@+id/availability_image"
+                android:layout_marginStart="3dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="-48dp"
+                android:padding="4dp"
+                android:text="People In Line:"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textViewName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/availability_image"
+                android:text="Instuctor Name"
+                android:textStyle="bold"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/button_delete"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewHours"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small.Inverse"
+                android:layout_toRightOf="@id/button_see_professor"
+                android:text="X"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/button_background"
+                android:backgroundTint="@color/red"
+                android:textColor="#FFFF"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewOfficeLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewName"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/availability_image"
+                android:text="STE2061"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+
+            <TextView
+                android:id="@+id/textViewHours"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewOfficeLocation"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/availability_image"
+
+                android:text="2:30 - 5:30"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textStyle="bold" />
+
+            <Button style="@style/Widget.AppCompat.Button.Colored"
+                android:id="@+id/button_see_professor"
+                android:layout_width="133dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewHours"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/availability_image"
+                android:background="@drawable/button_background"
+                android:text="Meet Instructor"
+                android:textColor="#FFFFFF"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small.Inverse"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

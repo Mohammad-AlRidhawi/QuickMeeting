@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:padding="16dp">
+
+            <TextView
+                android:id="@+id/search_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:text="Your Position In Line Is"
+                android:textColorHint="@android:color/black" />
+
+        <TextView
+            android:id="@+id/positonInLine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textSize="250dp"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:text=""
+            android:textColorHint="@android:color/black" />
+
+
+
+        <Button
+            android:id="@+id/leave_queue"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="117dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_marginTop="20dip"
+            android:background="@drawable/button_background"
+            android:text="Leave Queue"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

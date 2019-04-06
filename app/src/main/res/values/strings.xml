@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">QuickMeeting</string>
+    <string name="title_activity_signup">SignupActivity</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <string name="title_activity_home">HomeActivity</string>
+</resources>
